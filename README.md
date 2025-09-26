@@ -7,3 +7,5 @@
 - There is servicepage which show what we offer in our organisation
 - There is news which there is the orgaisation blog update and also the victims stories
 - And lastly the gallery which shows the images 
+PART 2
+In my webiste created a style.css file that linked to my about,home,news,services,enquiry and gallery html page.
