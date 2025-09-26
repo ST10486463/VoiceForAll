@@ -19,4 +19,15 @@ i ensured thta there is psudeoclasses like hover,active and focus on my button a
 on my footer i added a hover and ul
 I ensured that there is also hover on my news "victims stories"
 
+References:
+Btc.edu.za. (2025). Available at: https://www.btc.edu.za/wp-content/uploads/2020/01/student-support-counselling-internal-image.jpg [Accessed 26 Sep. 2025].
+Nwu.ac.za. (2025). Available at: https://services.nwu.ac.za/sites/services.nwu.ac.za/files/files/com-dev/END-GBV-NOW.jpg [Accessed 26 Sep. 2025].
+Website-files.com. (2025). Available at: https://cdn.prod.website-files.com/6272566d49f60869adc23be5/63db1f8939a0ee3dab65ebec_119.jpg [Accessed 26 Sep. 2025].
+Www.gov.za. (2025). Available at: https://www.gov.za/sites/default/files/speech_docs/gbvf.png [Accessed 26 Sep. 2025].
+
+‌
+
+
+‌
+
 
