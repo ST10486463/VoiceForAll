@@ -9,7 +9,7 @@
 - And lastly the gallery which shows the images 
 PART 2
 In my webiste created a style.css file that linked to my about,home,news,services,enquiry and gallery html page.
-I then etsablish a base style such font family in my body,headings and also used fon sizes to enlarge the sizes on the headings and header, i used margin to creat space between the image and text and padding
+I then etsablish a base style such font family in my body,headings and also used fon sizes to enlarge the sizes on the headings and header, i used margin to creat space between the image and text and padding.
 i used Typogrpahy syles like letter spacing to makes space betwwn the texts, font weight to make the test bold and line height and i used text-decoration to remove them 
 I created a nvigation bar that consists of my home,about,service,enquiry,gallery and news and on my naviagtion bar there is a top bar that consists of social media icons and number for help
 in my home page i included a button for Get help ehich takes to the enquiry page and i changes the hero imge to my my new one
