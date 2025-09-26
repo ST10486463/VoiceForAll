@@ -16,7 +16,7 @@ in my home page i included a button for Get help ehich takes to the enquiry page
 There also background colours and box shadows and i used color purple for my text word.
 I added media quries to help to accomodate the tablets,mobile and desktop by adding maax and min which will accomdate the electonic devices'
 i ensured thta there is psudeoclasses like hover,active and focus on my button and also the nav links
-on my footer i added a hover and ul
+on my footer i added a hover and ul.
 I ensured that there is also hover on my news "victims stories"
 
 References:
