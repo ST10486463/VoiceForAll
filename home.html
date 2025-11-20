@@ -3,52 +3,177 @@
 <head>
 <meta charset="UTF-8">
 <meta name ="viewport" content="width=device-width, initial-scale=1.0">
-<title>Home</title>
+<title>VoiceForAll</title>
+<meta name="description" content="VoiceForAll supports victims of GBV with counselling, shelters, legal services, awareness programs and immediate help resources. Every voice matters.">
+<meta name="keywords" content="GBV, gender based violence, counselling, shelter, legal help, stop abuse, VoiceForAll, South Africa">
+<meta name="author" content="VoiceForAll Foundation">
+
+
+<meta name="keywords" content="gender based violence support, GBV help, survivor support, counseling, shelters, VoiceForAll">
 <link rel="stylesheet" href="style.css">
-<<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
 </head>
 <body>
-<div class="top-bar">
-<div class="left">
-<span>24/7 TOLL FREE HELPLINE: <strong> 082 745 8965</strong></span>
-</div>
-<div class="left">
-<span>Support Locator: <strong>*125*8956#</strong></span>
-</div>
-<i class="fa-brands fa-facebook"></i>
-<i class="fa-brands fa-tiktok"></i>
-<i class="fa-brands fa-whatsapp"></i>
-<i class="fa-brands fa-instagram"></i>
-<i class="fa-brands fa-x-twitter"></i>
-</div>
-</div>
-<nav>
+
+<nav class = "navbar">
+<div class ="navbar_container">
+
 <div class="logo">
-<img src="images/VoiceImage.jpg"  style="width:200px; height:200px;">
+<img src="images/VoiceImage.jpg" alt="VoiceForAll Logo" style="width:100px; height:80px;">
 </div>
-<ul class="nav-links">
-<li><a href= "home.html" class ="active" >Home</a></li>
-<li><a href= "about.html">About</a></li>
-<li><a href= "services.html">Services</a></li>
-<li><a href= "enquiry.html">Enquiry</a></li>
-<li><a href= "news.html">News</a></li>
-<li><a href= "gallery.html">Gallery</a></li>
+<div class ="navbar_toggle" id="mobile-menu">
+<span class ="bar"></span>
+<span class ="bar"></span>
+<span class ="bar"></span>
+</div>
+<ul class="nav_menu">
+      <li class="navbar_item"><a href="home.html" class="navbar_links">Home</a></li>
+      <li class="navbar_item"><a href="about.html" class="navbar_links">About</a></li>
+      <li class="navbar_item"><a href="services.html" class="navbar_links">Services</a></li>
+      <li class="navbar_item"><a href="enquiry.html" class="navbar_links">Enquiry</a></li>
+      <li class="navbar_item"><a href="news.html" class="navbar_links">News</a></li>
+      <li class="navbar_item"><a href="gallery.html" class="navbar_links">Gallery</a></li>
+	  <li class="navbar_item"><a href="contact.html" class="navbar_links">Contact</a></li>
+    
+<li class ="navbar_btn"><a href ="enquiry.html" class="btn">Get Help</a>
 </ul>
 </nav>
 
-<header class="hero">
-<h1>WELCOME TO OUR VOICEFORALL WEBSITE</h1>
-<p>Breaking the silence, building a safer tomorrow!!</p>
-<a href="enquiry.html" class="btn">Get Help</a>
-</header>
-<section class="content">
-<img srcset="Images/GBV.jpg" style="width:1700px; height:1200px">
+<section class="hero fade-in">
+  <div class="hero_content">
+    <h1>Where Hope Begins</h1>
+    <span>Your Voice Matters</span>
+    <p>We provide support, protection, and empowerment for survivors of Gender-Based Violence.</p>
+
+    <button id="emergencyBtn" class="emergency-alert-btn">
+      <i class="fas fa-exclamation-triangle"></i> Emergency Help
+    </button>
+  </div>
+</section>
+
+<section class="quick_actions fade-in">
+  <h2>How Can We Support You Today?</h2>
+
+  <input type="text" id="serviceSearch" placeholder="Search support options..." class="search-bar">
+
+  <div class="action_grid">
+
+    <a href="enquiry.html" class="action_card fade-in">
+      <i class="fa-solid fa-phone"></i>
+      <h3>Talk to Someone</h3>
+      <p>Immediate support, anytime.</p>
+    </a>
+
+    <a href="services.html" class="action_card fade-in">
+      <i class="fa-solid fa-hands-holding-child"></i>
+      <h3>Support Services</h3>
+      <p>Counselling, shelters, and legal guidance.</p>
+    </a>
+
+    <a href="about.html" class="action_card fade-in">
+<i class="fa-solid fa-users"></i>
+      <h3>Our Mission</h3>
+      <p>Learn more about our purpose.</p>
+    </a>
+
+  </div>
+</section>
+
+<section class="info_section fade-in">
+  <h2>Understanding Gender-Based Violence</h2>
+
+  <div class="accordion">
+    <div class="accordion-title">What is GBV?</div>
+    <div class="accordion-content">
+      GBV includes physical, emotional, sexual, and psychological harm directed at a person based on their gender.
+    </div>
+
+    <div class="accordion-title">Signs of Abuse</div>
+    <div class="accordion-content">
+      Control, manipulation, isolation, threats, intimidation, financial control, or physical harm.
+    </div>
+
+    <div class="accordion-title">How You Can Help</div>
+    <div class="accordion-content">
+      Support victims, provide resources, speak out, donate, volunteer, or report incidents.
+    </div>
+  </div>
+</section>
+
+
+
+<div id="emergencyModal" class="modal">
+<div class="modal-content">
+ <span class="modal-close">&times;</span>
+
+<div class="modal-header">
+<i class="fas fa-exclamation-triangle"></i>
+<h2>Emergency Assistance Available</h2>
 </div>
-</main>
-<footer>
-<ul>
-&copy;St10486463
-</ul>
+
+    <div class="modal-body">
+      <p>If you are in immediate danger, please:</p>
+      <ul>
+        <li>Call Emergency Services: <strong>10111</strong></li>
+        <li>Call our 24/7 Helpline: <strong>082 745 8965</strong></li>
+        <li>Use our “Get Help” button for quick support</li>
+      </ul>
+
+      <div class="emergency-contacts">
+        <button class="emergency-btn" onclick="window.location.href='tel:10111'">
+          <i class="fas fa-phone"></i> Call Police
+        </button>
+
+        <button class="emergency-btn" onclick="window.location.href='tel:0827458965'">
+          <i class="fas fa-life-ring"></i> Our Helpline
+        </button>
+      </div>
+</div>
+
+</div>
+</div>
+
+	
+	
+
+
+
+<footer class="footer_container">
+
+<div class="footer_links">
+
+<div class="footer_link--items">
+<h2>About Us</h2>
+<a href="#">Who We Are</a>
+<a href="#">Mission & Vision</a>
+<a href="#">Programs</a>
+<a href="#">Safety Resources</a>
+<a href="#">Terms of Service</a>
+<a href="#">Report Abuse</a>
+</div>
+
+<div class="footer_link--items">
+<h2>Contact Us</h2>
+<a href="#">Tel: 012 458 9874</a>
+<a href="#">Email: info@voiceforall.org</a>
+<a href="#">Helpline: 082 745 8965</a>
+<a href="#">Contact Form</a>
+<a href="#">Sponsorships</a>
+</div>
+
+<div class="footer_link--items">
+<h2>Social Media</h2>
+<a href="#"><i class="fab fa-facebook"></i> Facebook</a>
+<a href="#"><i class="fab fa-tiktok"></i> TikTok</a>
+<a href="#"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+<a href="#"><i class="fab fa-twitter"></i> Twitter / X</a>
+</div>
+
+</div>
+
+<p class="website_right">© 2025 VoiceForAll. All Rights Reserved.</p>
+
 </footer>
+<script src="script.js"></script>
 </body>
 </html>

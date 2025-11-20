@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VoiceForAll Services | Counselling, Legal Help & Shelter Support</title>
+    <meta name="description" content="VoiceForAll provides counselling, legal assistance, safe shelters, community outreach, emergency helplines, and GBV educational programs.">
+    <meta name="keywords" content="GBV services, counselling, legal support, shelters, gender based violence, help, support services">
+    <meta name="author" content="VoiceForAll Foundation">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar_container">
+            <div class="navbar_toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav_menu">
+                <li class="navbar_item"><a href="home.html" class="navbar_links">Home</a></li>
+                <li class="navbar_item"><a href="about.html" class="navbar_links">About</a></li>
+                <li class="navbar_item"><a href="services.html" class="navbar_links">Services</a></li>
+                <li class="navbar_item"><a href="enquiry.html" class="navbar_links">Enquiry</a></li>
+                <li class="navbar_item"><a href="news.html" class="navbar_links">News</a></li>
+                <li class="navbar_item"><a href="gallery.html" class="navbar_links">Gallery</a></li>
+                <li class="navbar_item"><a href="contact.html" class="navbar_links">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="services_section">
+        <section class="services-header fade-in">
+            <h1 class="page-title">Our Services</h1>
+            <p class="intro-text">
+                We offer a range of support services aimed at helping survivors of Gender-Based Violence (GBV)
+                rebuild, recover, and regain their strength.
+            </p>
+        </section>
+
+        <div class="services_grid">
+            <div class="service_card">
+                <i class="fa-solid fa-heart service_icon"></i>
+                <h2>Counseling & Emotional Support</h2>
+                <p>Confidential one-on-one or group healing sessions with trained counselors.</p>
+                <button class="card_btn" data-service="counseling">Book Session</button>
+            </div>
+
+            <div class="service_card">
+                <i class="fa-solid fa-phone-volume service_icon"></i>
+                <h2>24/7 Helpline</h2>
+                <p>Call, WhatsApp, or email anytime for urgent support and guidance.</p>
+                <button class="card_btn" data-service="helpline">Contact Now</button>
+            </div>
+
+            <div class="service_card">
+                <i class="fa-solid fa-scale-balanced service_icon"></i>
+                <h2>Legal support</h2>
+                <p>Legal aid and help with reporting GBV, protection orders, and rights awareness.</p>
+                <button class="card_btn" data-service="legal">Legal Support</button>
+            </div>
+
+            <div class="service_card">
+                <i class="fa-solid fa-house-chimney service_icon"></i>
+                <h2>Shelters & Safe Spaces</h2>
+                <p>Temporary housing for victims needing protection and safety.</p>
+                <button class="card_btn" data-service="shelter">Find a Shelter</button>
+            </div>
+
+            <div class="service_card">
+                <i class="fa-solid fa-notes-medical service_icon"></i>
+                <h2>Medical Assistance</h2>
+                <p>Support with accessing hospitals, clinics, and medical examinations.</p>
+                <button class="card_btn" data-service="medical">Get Support</button>
+            </div>
+
+            <div class="service_card">
+                <i class="fa-solid fa-hands-helping service_icon"></i>
+                <h2>Training & Empowerment</h2>
+                <p>Skills development, awareness campaigns, and GBV prevention programs.</p>
+                <button class="card_btn" data-service="training">Join Programs</button>
+            </div>
+        </div>
+
+        <section class="form-section fade-in">
+            <h1>Service Request Form</h1>
+            <h2>PERSONAL INFORMATION:</h2>
+
+            <form id="enquiryForm">
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="name">First name:</label>
+                        <input type="text" id="name" name="name" required>
+                        <span class="error-message" id="nameError"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="middleName">Middle name:</label>
+                        <input type="text" id="middleName" name="middleName">
+                        <span class="error-message" id="middleNameError"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="surname">Surname:</label>
+                        <input type="text" id="surname" name="surname" required>
+                        <span class="error-message" id="surnameError"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="id">ID number:</label>
+                        <input type="text" id="id" name="id" pattern="[0-9]{13}" required>
+                        <span class="error-message" id="idError"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="gender">Gender:</label>
+                        <select id="gender" name="gender" required>
+                            <option value="">Select option</option>
+                            <option value="female">Female</option>
+                            <option value="male">Male</option>
+                            <option value="other">Other</option>
+                            <option value="prefer-not-to-say">Prefer not to say</option>
+                        </select>
+                        <span class="error-message" id="genderError"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="contact">Contact number:</label>
+                        <input type="tel" id="contact" name="contact" pattern="[0-9]{10}" required>
+                        <span class="error-message" id="contactError"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        <span class="error-message" id="emailError"></span>
+                    </div>
+                </div>
+
+                <h2>SERVICE REQUEST:</h2>
+
+                <div class="form-group">
+                    <label for="subject">Assistance Required:</label>
+                    <select id="subject" name="subject" required>
+                        <option value="">Select option</option>
+                        <option value="counseling">Counseling</option>
+                        <option value="legal">Legal Support</option>
+                        <option value="awareness">Awareness Programs</option>
+                        <option value="housing">Housing</option>
+                        <option value="medical">Medical Support</option>
+                        <option value="physical-abuse">Physical abuse</option>
+                        <option value="sexual-abuse">Sexual abuse</option>
+                        <option value="emotional-abuse">Emotional abuse</option>
+                        <option value="child-abuse">Child abuse</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <span class="error-message" id="subjectError"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    <span class="error-message" id="messageError"></span>
+                </div>
+
+                <input type="submit" value="Submit Form" class="submit-btn">
+            </form>
+            
+            <!-- Success Modal -->
+            <div id="successModal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h3>Request Submitted Successfully!</h3>
+                    <p>Thank you for reaching out. Our team will contact you within 24 hours to discuss your needs and provide assistance.</p>
+                    <p><strong>Emergency?</strong> Please call our 24/7 helpline: <strong>082 745 8965</strong></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer_container">
+        <div class="footer_links">
+            <div class="footer_link--items">
+                <h2>About Us</h2>
+                <a href="#">Who We Are</a>
+                <a href="#">Mission & Vision</a>
+                <a href="#">Programs</a>
+                <a href="#">Safety Resources</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Report Abuse</a>
+            </div>
+
+            <div class="footer_link--items">
+                <h2>Contact Us</h2>
+                <a href="#">Tel: 012 458 9874</a>
+                <a href="#">Email: info@voiceforall.org</a>
+                <a href="#">Helpline: 082 745 8965</a>
+                <a href="#">Contact Form</a>
+                <a href="#">Sponsorships</a>
+            </div>
+
+            <div class="footer_link--items">
+                <h2>Social Media</h2>
+                <a href="#"><i class="fab fa-facebook"></i> Facebook</a>
+                <a href="#"><i class="fab fa-tiktok"></i> TikTok</a>
+                <a href="#"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+                <a href="#"><i class="fab fa-twitter"></i> Twitter / X</a>
+            </div>
+        </div>
+
+        <p class="website_right">© 2025 VoiceForAll. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

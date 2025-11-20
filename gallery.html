@@ -1,45 +1,151 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name ="viewport" content="width=device-width, initial-scale=1.0">
-<title>News</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VoiceForAll Gallery | GBV Awareness & Support</title>
+    <meta name="description" content="Explore the VoiceForAll gallery showcasing awareness campaigns, events, community work, and survivor empowerment initiatives aimed at ending Gender-Based Violence.">
+    <meta name="keywords" content="GBV awareness, VoiceForAll gallery, gender-based violence support, community campaigns, survivor empowerment, South Africa GBV organization">
+    <meta name="author" content="VoiceForAll Foundation">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="gallery-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
 </head>
 <body>
-<header>
-<nav>
-<div>
-<ul class="nav-links">
-<li><a href= "home.html">Home</a></li>
-<li><a href= "about.html">About</a></li>
-<li><a href= "services.html">Services</a></li>
-<li><a href= "enquiry.html">Enquiry</a></li>
-<li><a href= "news.html">News</a></li>
-<li><a href= "gallery.html">Gallery</a></li>
-</ul>
-</div>
-</nav>
-</header>
-<main>
-<h1>IMAGES:</h1>
-<img src="https://www.ufs.ac.za/images/librariesprovider43/default-album/gbv-crying.jpg?sfvrsn=24f64d20_0" style="width:300px; height:300px;">
-<img src ="https://www.azizilaw.com/wp-content/uploads/2023/04/iStock_000018264155_Medium-3-1536x1023.jpg" style ="width:300px;height:300px;">
-<img src ="https://www.globalsistersreport.org/files/20200305T1103-VATICAN-RELIGIOUS-FREEDOM-603167%20resizse.jpg" style = "width:300px;height:300px">
-<img src="https://www.cosleylaw.com/images/easyblog_images/male-victim-domestic-abuse-violence.jpg" style="width:300px; height:300px;">
-<img src="https://www.news.uct.ac.za/cache/images/userfiles/images/news/2022/800x0/normal/2022-11-29_MenStandUp.jpg" style="width:300px; height:300px;">
-<img src="https://www.george.gov.za/wp-content/uploads/2023/11/16-DAYS-2023-Instagram-940-x-940-Recovered-Recovered-scaled.jpg" style="width:300px; height:300px;">
-<img src="https://www.nrf.ac.za/wp-content/uploads/2025/04/Untitled-design.png" style = "width:300px; height:300px">
-<img src="https://www.nasgp.org.uk/wp-content/uploads/fly-images/1548/Child-safeguarding-848x636-c.jpeg" style="width:300px; height:300px;">
-<img src="https://2384364.fs1.hubspotusercontent-na2.net/hubfs/2384364/Blog-Feature-Photos/Blog_ChildPhysicalAbuseMedProfExamPedsBlackEyeScratches_260x200px.jpg" style="width:300px; height:300px;">
-<img src="https://radioworkshop.org/wp-content/uploads/2025/04/UPDATED_GBV_LGBTIQ_factsheet-3.jpg" style="width:300px; height:300px;">
-<img src="https://www.ei-ie.org/image/pzWDct8mWlhm7bmb5iBg7XyPVsL11OCc6hE7Dp36.jpg/lead.jpg" style="width:300px; height:300px;">
-<img src="https://www.msf.org/sites/default/files/styles/hero_desktop/public/images/try%20hero%20again.png?itok=UT_vfMZ_" style="width:300px; height:300px;">
-</main>
-<footer>
-<li>
-&copy;St10486463
-</li>
-</footer>
+    <header>
+        <nav class="navbar">
+            <div class="navbar_container">
+                <div class="navbar_toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="nav_menu">
+                    <li class="navbar_item"><a href="home.html" class="navbar_links">Home</a></li>
+                    <li class="navbar_item"><a href="about.html" class="navbar_links">About</a></li>
+                    <li class="navbar_item"><a href="services.html" class="navbar_links">Services</a></li>
+                    <li class="navbar_item"><a href="enquiry.html" class="navbar_links">Enquiry</a></li>
+                    <li class="navbar_item"><a href="news.html" class="navbar_links">News</a></li>
+                    <li class="navbar_item"><a href="gallery.html" class="navbar_links">Gallery</a></li>
+                    <li class="navbar_item"><a href="contact.html" class="navbar_links">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="gallery-main">
+        <h1 class="page-title">VoiceForAll Gallery</h1>
+        <p class="intro-text">Browse our awareness campaigns, workshops, community outreach events, and empowerment programs.</p>
+
+        <div class="gallery-search-box">
+            <input type="text" id="gallerySearch" placeholder="Search images... (e.g., campaigns, events)">
+        </div>
+
+        <div id="galleryContainer" class="gallery-grid">
+            <!-- Using placeholder images that are guaranteed to work -->
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3VwcG9ydCUyMGdyb3VwfGVufDB8fDB8fHww&w=1000&q=80" alt="GBV awareness campaign showing emotional support for survivors">
+                <div class="image-caption">
+                    <h3>Emotional Support</h3>
+                    <p>Providing comfort and care for GBV survivors</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bGVnYWwlMjBhc3Npc3RhbmNlfGVufDB8fDB8fHww&w=1000&q=80" alt="Legal assistance and support for domestic violence victims">
+                <div class="image-caption">
+                    <h3>Legal Support</h3>
+                    <p>Professional legal assistance for domestic violence cases</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1559027615-cfa462892979?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y29tbXVuaXR5JTIwbWVldGluZ3xlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80" alt="Community gathering for GBV awareness and prevention">
+                <div class="image-caption">
+                    <h3>Community Awareness</h3>
+                    <p>Raising awareness through community gatherings</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fG1lbnQlMjBzdXBwb3J0fGVufDB8fDB8fHww&w=1000&q=80" alt="Male victim support and domestic abuse awareness">
+                <div class="image-caption">
+                    <h3>Male Victim Support</h3>
+                    <p>Supporting male survivors of domestic violence</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWVuJTIwc3RhbmRpbmclMjB0b2dldGhlcnxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80" alt="Men standing up against gender-based violence campaign">
+                <div class="image-caption">
+                    <h3>Men Stand Up</h3>
+                    <p>Men taking a stand against gender-based violence</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FtcGFpZ258ZW58MHx8MHx8fDA%3D&w=1000&q=80" alt="16 Days of Activism against Gender-Based Violence campaign">
+                <div class="image-caption">
+                    <h3>16 Days of Activism</h3>
+                    <p>Annual campaign against gender-based violence</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1523580494863-6f3031224c94?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZWR1Y2F0aW9ufGVufDB8fDB8fHww&w=1000&q=80" alt="GBV research and education initiatives">
+                <div class="image-caption">
+                    <h3>Research & Education</h3>
+                    <p>Educational initiatives for GBV prevention</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1516627145497-ae69578cfc06?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2hpbGQlMjBwcm90ZWN0aW9ufGVufDB8fDB8fHww&w=1000&q=80" alt="Child protection and safeguarding services">
+                <div class="image-caption">
+                    <h3>Child Protection</h3>
+                    <p>Safeguarding children from violence and abuse</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <span class="lightbox-prev">&#10094;</span>
+        <span class="lightbox-next">&#10095;</span>
+        <div class="lightbox-content">
+            <img id="lightbox-img" src="" alt="">
+            <div class="lightbox-caption">
+                <h3 id="lightbox-title"></h3>
+                <p id="lightbox-desc"></p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer_container">
+        <div class="footer_links">
+            <div class="footer_link--items">
+                <h2>About Us</h2>
+                <a href="#">Who We Are</a>
+                <a href="#">Mission & Vision</a>
+                <a href="#">Programs</a>
+                <a href="#">Safety Resources</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Report Abuse</a>
+            </div>
+            <div class="footer_link--items">
+                <h2>Contact Us</h2>
+                <a href="#">Tel: 012 458 9874</a>
+                <a href="#">Email: info@voiceforall.org</a>
+                <a href="#">Helpline: 082 745 8965</a>
+                <a href="#">Contact Form</a>
+                <a href="#">Sponsorships</a>
+            </div>
+            <div class="footer_link--items">
+                <h2>Social Media</h2>
+                <a href="#"><i class="fab fa-facebook"></i> Facebook</a>
+                <a href="#"><i class="fab fa-tiktok"></i> TikTok</a>
+                <a href="#"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+                <a href="#"><i class="fab fa-twitter"></i> Twitter / X</a>
+            </div>
+        </div>
+        <p class="website_right">© 2025 VoiceForAll. All Rights Reserved.</p>
+    </footer>
+
+    <script src="gallery-script.js"></script>
 </body>
 </html>
